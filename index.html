@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
     <link rel="stylesheet" href="styles/desktop-styles.css">
+    <link rel="stylesheet" href="styles/tablet.css">
+    <link rel="stylesheet" href="styles/mobile.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -19,13 +22,17 @@
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">About</a></li>
                 </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i> 
+                </div>
             </nav>
             <div class="banner">
                 <div class="banner-content">
-                    <h1 class="title">Get body in <span class="miama">shape</span>&amp; stay healthy</h1>
+                    <h1 class="title">Get body in <br><span class="miama">shape</span> &amp; stay <br>healthy</h1>
                     <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
                     <div class="btn">
                         <button class="btn-primary">Join Club Now!</button>
+                        <button class="btn-primary" id="hidden-btn"> Join Now!</button>
                         <button class="btn-primary btn-secondary">Download App</button>
                     </div>
                 </div>
@@ -33,6 +40,7 @@
                     <img src="images/Images 2.png" alt="banner-img">
                     <div class="video-tutorial">
                         <div class="circle"></div>
+                        <img id="hidden-play-icon" src="images/Group 21.png" alt="">
                         <div class="vt-content">
                             <h2>350+</h2>
                             <p class="fs16">Video tutorial</p>
@@ -45,9 +53,10 @@
                 </div>
             </div>
         </section>
-
     </header>
-    <main></main>
+    <main>
+        
+    </main>
     <footer></footer>
 </body>
 </html>

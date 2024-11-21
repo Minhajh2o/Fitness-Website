@@ -1,0 +1,97 @@
+@media screen and (max-width: 576px) {
+
+    /* font */
+    .miama {
+        font-size: 5rem;
+    }
+
+    /* font size */
+    .title {
+        font-size: 2.25rem;
+    }
+
+    /* button */
+    .btn-primary {
+        display: none;
+        padding: 1rem 2rem;
+    }
+
+    #hidden-btn{
+        display: block;
+    }
+
+    .btn-secondary {
+        display: block;
+        border: 1px solid #FFF;
+        background: none;
+
+    }
+    .btn {
+        display: flex;
+        gap: .875rem;
+    }
+
+    /* header */
+    .header-content {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 1.5rem;
+    }
+
+    /* navbar */
+    .navbar {
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    /* banner */
+    .banner {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .banner-content {
+        gap: 1.5rem;
+        width: 100%;
+    }
+    .circle {
+        display: none;
+    }
+    #hidden-play-icon{
+        display: block;
+    }
+    .video-tutorial {
+        /* position */
+        position: absolute;
+        bottom: 120px;
+        left: 0px;
+    }
+    .vt-content>h2{
+        font-size: 1.25rem;
+    }
+    .vt-content>p{
+        font-size: .75rem;
+    }
+
+    .free-videos{
+        /* position */
+        position: absolute;
+        top: 130px;
+        right: 0px;
+    }
+    .free-videos>h1{
+        font-size: 2rem;
+    }
+    .free-videos>p{
+        font-size: .625rem;
+    }
+}
