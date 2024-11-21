@@ -7,38 +7,45 @@
     <link rel="stylesheet" href="styles/desktop-styles.css">
     <link rel="stylesheet" href="styles/tablet.css">
     <link rel="stylesheet" href="styles/mobile.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
 </head>
 <body>
     <header>
         <section class="header-content">
-            <nav class="navbar">
+            <!-- navbar -->
+            <nav class="navbar flex">
                 <h2 class="nav-title">Fitness</h2>
-                <ul>
+                <ul class="flex">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">About</a></li>
                 </ul>
                 <div class="hamburger">
-                    <i class="fas fa-bars"></i> 
+                    <i class="fas fa-bars"></i>
                 </div>
             </nav>
-            <div class="banner">
-                <div class="banner-content">
+            <!-- banner -->
+            <div class="banner flex">
+                <!-- banner content -->
+                <div class="banner-content flex-col">
                     <h1 class="title">Get body in <br><span class="miama">shape</span> &amp; stay <br>healthy</h1>
-                    <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                    <p>A huge selection of health and fitness content, healthy recipes and transformation stories to
+                        help you get fit and stay fit!</p>
                     <div class="btn">
                         <button class="btn-primary">Join Club Now!</button>
                         <button class="btn-primary" id="hidden-btn"> Join Now!</button>
                         <button class="btn-primary btn-secondary">Download App</button>
                     </div>
                 </div>
+                <!-- banner img -->
                 <div class="banner-img">
                     <img src="images/Images 2.png" alt="banner-img">
-                    <div class="video-tutorial">
+                    <!-- 350+ video tutorial -->
+                    <div class="video-tutorial flex">
                         <div class="circle"></div>
                         <img id="hidden-play-icon" src="images/Group 21.png" alt="">
                         <div class="vt-content">
@@ -46,6 +53,7 @@
                             <p class="fs16">Video tutorial</p>
                         </div>
                     </div>
+                    <!-- 500+ free videos -->
                     <div class="free-videos">
                         <h1>500+</h1>
                         <p>Free Workout Videos</p>
@@ -54,8 +62,50 @@
             </div>
         </section>
     </header>
-    <main>
-        
+    <main class="flex-col">
+        <!-- Change your habit section -->
+        <section class="habits-section flex-col">
+            <div class="habits-content-container flex-col">
+                <h1 class="habit-title">Change Your Habits</h1>
+                <p class="habit-description">We believe fitness should be accessible to everyone, everywhere, regardless
+                    of income or access to a gym.</p>
+            </div>
+            <!-- <div class=".habit-card-container"></div> -->
+            <div class="habit-card-container flex">
+                <!-- habit card 1 -->
+                <div class="habit-card flex-col">
+                    <img src="images/image 3.png" alt="" class="habit-card-img">
+                    <div class="habit-card-content flex-col">
+                        <p class="fs18">Movement</p>
+                        <p>We believe fitness should be accessible to everyone</p>
+                    </div>
+                </div>
+                <!-- habit card 2 -->
+                <div class="habit-card flex-col">
+                    <img src="images/image 2.png" alt="" class="habit-card-img">
+                    <div class="habit-card-content flex-col">
+                        <p class="fs18">Time</p>
+                        <p>We believe fitness should be accessible to everyone</p>
+                    </div>
+                </div>
+                <!-- habit card 3 -->
+                <div class="habit-card flex-col">
+                    <img src="images/image 4.png" alt="" class="habit-card-img">
+                    <div class="habit-card-content flex-col">
+                        <p class="fs18">Practice</p>
+                        <p>We believe fitness should be accessible to everyone</p>
+                    </div>
+                </div>
+                <!-- habit card 4 -->
+                <div class="habit-card flex-col">
+                    <img src="images/image 5.png" alt="" class="habit-card-img">
+                    <div class="habit-card-content flex-col">
+                        <p class="fs18">Weight Loss</p>
+                        <p>We believe fitness should be accessible to everyone</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer></footer>
 </body>

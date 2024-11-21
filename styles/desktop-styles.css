@@ -104,7 +104,7 @@ p {
     border: 1px solid #E6533C;
     background: #E6533C;
     color: white;
-    
+
 }
 
 .btn-secondary {
@@ -112,7 +112,9 @@ p {
     background: none;
 
 }
-#hidden-btn, #hidden-play-icon{
+
+#hidden-btn,
+#hidden-play-icon {
     display: none;
 }
 
@@ -121,6 +123,21 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: black;
     color: white;
+}
+
+/* Display flex */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Flex-col */
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* -------------header------------ */
@@ -135,9 +152,6 @@ header {
 
 /* navbar */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
@@ -146,12 +160,12 @@ header {
     color: #E6533C;
     font-style: italic;
 }
-.hamburger{
+
+.hamburger {
     display: none;
 }
+
 .navbar>ul {
-    display: flex;
-    align-items: center;
     list-style: none;
     gap: 2rem;
     border-radius: 2.5rem;
@@ -188,16 +202,8 @@ header {
 }
 
 /* banner */
-.banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
 .banner-content {
-    display: flex;
-    flex-direction: column;
+    align-items: start;
     gap: 1.75rem;
     width: 50%;
 }
@@ -212,10 +218,7 @@ header {
 }
 
 .video-tutorial {
-    display: flex;
     gap: 1rem;
-    align-content: center;
-    align-items: center;
     width: max-content;
     padding: 1.25rem 1.5rem;
     /* border */
@@ -237,7 +240,7 @@ header {
     border-radius: 50%;
 }
 
-.free-videos{
+.free-videos {
     padding: 1.25rem 1.5rem;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.10);
@@ -250,3 +253,42 @@ header {
     right: -55px;
 }
 
+
+/* -------------------main------------------ */
+
+main {
+    max-width: 70%;
+    margin: 6.25rem auto;
+    gap: 6.25rem;
+
+}
+
+/* Habits section */
+.habits-section {
+    text-align: center;
+    gap: 3.625rem;
+}
+
+.habits-content-container {
+    gap: 1rem;
+    max-width: 60%;
+}
+
+.habit-card-container {
+    gap: 2.5rem;
+}
+
+.habit-card {
+    gap: 1.875rem;
+
+}
+
+.habit-card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.habit-card-content {
+    gap: 1rem;
+}
