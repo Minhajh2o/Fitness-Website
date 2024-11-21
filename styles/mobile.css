@@ -9,6 +9,9 @@
     .title {
         font-size: 2.25rem;
     }
+    h1{
+        font-size: 2rem;
+    }
 
     /* button */
     .btn-primary {
@@ -54,14 +57,14 @@
 
     /* banner */
     .banner {
-        display: flex;
         flex-direction: column;
+        align-items: start;
         gap: 1.5rem;
     }
 
     .banner-content {
         gap: 1.5rem;
-        width: 100%;
+        max-width: 100%;
     }
     .circle {
         display: none;
@@ -94,4 +97,38 @@
     .free-videos>p{
         font-size: .625rem;
     }
+
+     /* main */
+     main {
+        max-width: 90%;
+        margin: 4rem auto;
+        gap: 4rem;
+    }
+
+    /* habit section */
+    .habits-section{
+        max-width: 90%;
+        gap: 1.5rem;
+    }
+    .habits-content-container {
+        max-width: 100%;
+    }
+
+    .habit-card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .habit-card{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .habit-card-img {
+        width: 80%;
+        height: 80%;
+    }
+
+
+
+
 }
