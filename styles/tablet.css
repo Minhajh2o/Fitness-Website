@@ -73,32 +73,45 @@
         object-fit: cover;
         object-position: center;
     }
+
     /* out team section */
-.our-team-section {
-    gap: 3.625rem;
-}
+    .our-team-section {
+        gap: 3.625rem;
+    }
 
-.our-team-content {
-    gap: 1rem;
-    max-width: 70%;
-    text-align: center;
-}
+    .our-team-content {
+        max-width: 70%;
+    }
 
-.team-card-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-}
+    .team-card-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
 
-.member-card {
-    align-items: start;
-    position: relative;
-}
+    .member-card {
+        position: relative;
+    }
 
-.member-intro {
-    position: absolute;
-    bottom: 1.25rem;
-    left: 1.25rem;
-}
+    /* footer */
+    .main-footer,
+    hr,
+    .bottom-section {
+        max-width: 90%;
+    }
+
+    .main-footer {
+        flex-direction: column;
+        gap: 4.5rem;
+    }
+
+    .title-container {
+        width: 60%;
+        align-items: flex-start;
+    }
+
+    .right-part {
+        width: 70%;
+    }
 
 }
