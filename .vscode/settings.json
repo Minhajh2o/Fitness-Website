@@ -2,5 +2,8 @@
     "cSpell.words": [
         "Miama"
     ],
-    "liveServer.settings.port": 5649
+    "liveServer.settings.port": 5649,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.tabCompletion": "on"
 }

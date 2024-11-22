@@ -120,6 +120,71 @@
                 <img class="run-img" src="images/run.jpg" alt="">
             </div>
         </section>
+        <!-- BMI calculator -->
+        <section class="bmi-section-container">
+            <div class="bmi-calculator-section flex">
+                <div class="bmi-chart-container flex-col">
+                    <h4>BMI Calculator Chart</h4>
+                    <table class="bmi-chart ">
+                        <thead>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="bmi-calculator flex-col">
+                    <div class="calculator-content flex-col">
+                        <h4>Calculate your BMI</h4>
+                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                    </div>
+                    <form>
+                        <div class="form-row">
+                            <input type="text" placeholder="Height/cm" required />
+                            <input type="text" placeholder="Weight/kg" required />
+                        </div>
+                        <div class="form-row">
+                            <input type="number" placeholder="Age" required />
+                            <select required>
+                                <option value="" disabled selected>Sex</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <select required>
+                                <option value="" disabled selected>Select an activity factor</option>
+                                <option value="sedentary">Sedentary</option>
+                                <option value="light">Light Activity</option>
+                                <option value="moderate">Moderate Activity</option>
+                                <option value="very_active">Very Active</option>
+                            </select>
+                        </div>
+                        <button class="btn-primary" type="submit">Calculate</button>
+                    </form>
+                </div>
+            </div>
+        </section>
         <!-- out team section -->
         <section class="our-team-section flex-col">
             <div class="our-team-content flex-col">
@@ -221,10 +286,9 @@
         </section>
         <hr>
         <!-- all rights reserved -->
-         <section class="bottom-section">
+        <section class="bottom-section">
             <h6>All right reserved @Fitness 2024</h6>
-         </section>
-
+        </section>
     </footer>
 </body>
 </html>

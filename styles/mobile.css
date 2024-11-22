@@ -1,11 +1,11 @@
 @media screen and (max-width: 576px) {
 
-    /* font */
+    /* --------font --------*/
     .miama {
         font-size: 5rem;
     }
 
-    /* font size */
+    /* --------font size-------- */
     .title {
         font-size: 2.25rem;
     }
@@ -14,7 +14,7 @@
         font-size: 2rem;
     }
 
-    /* button */
+    /* --------button-------- */
     .btn>.btn-primary {
         display: none;
         padding: 1rem 2rem;
@@ -36,14 +36,14 @@
         gap: .875rem;
     }
 
-    /* header */
+    /* --------header-------- */
     .header-content {
         max-width: 100%;
         margin: 0 auto;
         padding: 1.5rem;
     }
 
-    /* navbar */
+    /* --------navbar-------- */
     .navbar {
         padding-top: 1.5rem;
         padding-bottom: 2rem;
@@ -57,7 +57,7 @@
         display: none;
     }
 
-    /* banner */
+    /* --------banner-------- */
     .banner {
         flex-direction: column;
         align-items: start;
@@ -107,14 +107,14 @@
         font-size: .625rem;
     }
 
-    /* main */
+    /* -----------main---------- */
     main {
         max-width: 90%;
         margin: 4rem auto;
         gap: 4rem;
     }
 
-    /* habit section */
+    /* --------habit section-------- */
     .habits-section {
         max-width: 90%;
         gap: 1.5rem;
@@ -139,7 +139,7 @@
         height: 80%;
     }
 
-    /* Run extra mile */
+    /* --------Run extra mile-------- */
     .run-extra-section {
         flex-direction: column;
         padding: 2rem;
@@ -158,7 +158,34 @@
         margin-top: .5rem;
     }
 
-    /* out team section */
+    /* -----------bmi-calculator-section------------ */
+    .bmi-calculator-section {
+        max-width: 90%;
+        margin: 0 auto;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .bmi-chart th,
+    .bmi-chart td {
+        padding: 0.75rem 2rem;
+    }
+
+    /* bmi-calculator-form */
+    .bmi-calculator {
+        max-width: 100%;
+        margin: 0;
+        padding: 1.5rem;
+    }
+
+    .form-row input,
+    .form-row select {
+        width: 100%;
+    }
+
+    /* --------out team section-------- */
     .our-team-section {
         gap: 2.25rem;
     }
@@ -173,7 +200,7 @@
         gap: 1.5rem;
     }
 
-    /* footer */
+    /* ------------footer------------ */
     .main-footer,
     hr,
     .bottom-section {
@@ -195,6 +222,7 @@
         flex-direction: column;
         align-items: flex-start;
     }
+
     .bottom-section {
         padding: 1.5rem 0;
     }

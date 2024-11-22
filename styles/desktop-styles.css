@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* font */
+/* --------font-------- */
 @font-face {
     font-family: 'Miama';
     src: url('../Miama Font/Miama.ttf');
@@ -17,7 +17,7 @@
     background: transparent;
 }
 
-/* text-size */
+/* --------text-size-------- */
 .title {
     font-size: 4.875rem;
     font-weight: 900;
@@ -69,7 +69,8 @@ h6 {
     line-height: 120%;
 }
 
-p {
+p,
+td {
     color: rgba(255, 255, 255, 0.50);
     font-size: 14px;
     font-style: normal;
@@ -95,7 +96,7 @@ p {
     color: rgba(255, 255, 255, 0.50);
 }
 
-/* button */
+/* --------button-------- */
 .btn-primary {
     font-size: 18px;
     font-weight: 600;
@@ -152,7 +153,7 @@ header {
     margin: 0 auto;
 }
 
-/* navbar */
+/* --------navbar-------- */
 .navbar {
     padding-top: 3rem;
     padding-bottom: 2rem;
@@ -180,7 +181,6 @@ header {
     border-radius: 2.5rem;
     background: #E6533C;
     /* ------------- */
-    /* color: #FFF; */
     font-size: 1.125px;
     font-style: normal;
     font-weight: 600;
@@ -203,7 +203,7 @@ header {
 
 }
 
-/* banner */
+/* --------banner-------- */
 .banner-content {
     align-items: start;
     gap: 1.75rem;
@@ -238,7 +238,7 @@ header {
     background: #E6533C;
     width: 40px;
     height: 40px;
-    border: orangered 1px solid;
+    border: #E6533C 1px solid;
     border-radius: 50%;
 }
 
@@ -265,7 +265,7 @@ main {
 
 }
 
-/* Habits section */
+/* --------Habits section-------- */
 .habits-section {
     text-align: center;
     gap: 3.625rem;
@@ -295,7 +295,7 @@ main {
     gap: 1rem;
 }
 
-/* Run extra mile */
+/* --------Run extra mile-------- */
 .run-extra-section {
     padding: 1.875rem 2rem 1.875rem 3.5rem;
     border-radius: 18px;
@@ -312,9 +312,7 @@ main {
 .run-extra-img-container {
     width: 45%;
     height: 38.5%;
-    /* height: auto; */
     overflow: hidden;
-    /* border-radius: 18px; */
 }
 
 .run-img {
@@ -325,7 +323,102 @@ main {
     object-position: center;
 }
 
-/* out team section */
+/* -------------bmi-calculator-section------------- */
+main>.bmi-section-container {
+    background: #222;
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100vw;
+}
+
+.bmi-calculator-section {
+    max-width: 70%;
+    margin: 0 auto;
+    gap: 3.625rem;
+}
+
+/* bmi-table-styles*/
+.bmi-chart-container {
+    stroke-width: 100%;
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding: 2rem 0;
+}
+
+.bmi-chart {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: rgba(255, 255, 255, 0.10) 1px solid;
+}
+
+.bmi-chart th,
+.bmi-chart td {
+    border: rgba(255, 255, 255, 0.10) 1px solid;
+    padding: 0.75rem 2.5rem;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.bmi-chart th {
+    background-color: #333;
+    font-weight: bold;
+}
+
+
+/* bmi-calculator-form */
+.bmi-calculator {
+    max-width: 50%;
+    margin: 2rem auto;
+    padding: 2rem;
+    gap: 2rem;
+    align-items: start;
+    border-radius: 1.125rem;
+    background-color: #2b2b2b;
+}
+
+.calculator-content {
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.bmi-calculator form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.form-row input,
+.form-row select {
+    flex: 1;
+    padding: 1rem;
+    background-color: #3b3b3b;
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.9rem;
+}
+
+.form-row input::placeholder {
+    color: rgba(255, 255, 255, 0.60);
+}
+
+
+
+button:hover {
+    background-color: #e54c32;
+}
+
+
+
+/* --------out team section-------- */
 .our-team-section {
     gap: 3.625rem;
 }
@@ -369,16 +462,19 @@ main {
     object-fit: cover;
 }
 
-/* footer */
+/* -----------footer---------- */
 footer {
     background: rgba(255, 255, 255, 0.10);
 }
 
-.main-footer, hr, .bottom-section {
+.main-footer,
+hr,
+.bottom-section {
     max-width: 70%;
     margin: 0 auto;
 }
-.main-footer{
+
+.main-footer {
     padding: 4rem 0 4.5rem 0;
     align-items: flex-start;
 }
@@ -403,9 +499,11 @@ footer {
     align-items: flex-start;
     gap: 1.25rem;
 }
-hr{
+
+hr {
     border: 1px solid rgba(255, 255, 255, 0.10);
 }
+
 .bottom-section {
     text-align: center;
     padding: 2.25rem 0;
