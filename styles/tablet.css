@@ -73,5 +73,32 @@
         object-fit: cover;
         object-position: center;
     }
+    /* out team section */
+.our-team-section {
+    gap: 3.625rem;
+}
+
+.our-team-content {
+    gap: 1rem;
+    max-width: 70%;
+    text-align: center;
+}
+
+.team-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.member-card {
+    align-items: start;
+    position: relative;
+}
+
+.member-intro {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 1.25rem;
+}
 
 }
