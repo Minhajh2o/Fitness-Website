@@ -26,6 +26,19 @@
         gap: 4.5rem;
     }
 
+    /* -------Features Section Styles------- */
+    .features .section-title {
+        margin-bottom: 2.75rem;
+    }
+
+    .features-Card-container {
+        gap: 2rem;
+    }
+
+    .feature-card {
+        padding: 1rem;
+    }
+
     /* --------habit section-------- */
     .habits-section {
         max-width: 75%;
@@ -75,12 +88,22 @@
     }
 
     /* -------------bmi-calculator-section------------- */
+    .bmi-content {
+        max-width: 80%;
+        margin-bottom: -1.5rem;
+    }
+
     .bmi-calculator-section {
         max-width: 90%;
         margin: 0 auto;
+        padding: 3rem 0;
         gap: 2.5rem;
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .bmi-chart-container {
+        padding: 0;
     }
 
     /* bmi-calculator-form */
@@ -106,6 +129,19 @@
 
     .member-card {
         position: relative;
+    }
+
+    /* ----------testimonials---------- */
+    .testimonials {
+        padding: 3rem 2rem;
+    }
+
+    .testimonials .section-title {
+        margin-bottom: 2.5rem;
+    }
+
+    .testimonial-grid {
+        gap: 2rem;
     }
 
     /* ----------footer---------- */

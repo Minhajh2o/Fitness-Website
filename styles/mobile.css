@@ -114,6 +114,21 @@
         gap: 4rem;
     }
 
+    /* -------Features Section Styles------- */
+    .features .section-title {
+        margin-bottom: 2rem;
+    }
+
+    .features-Card-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 2rem;
+        gap: 1.5rem;
+    }
+
+    .feature-card {
+        padding: 1.5rem;
+    }
+
     /* --------habit section-------- */
     .habits-section {
         max-width: 90%;
@@ -159,13 +174,26 @@
     }
 
     /* -----------bmi-calculator-section------------ */
+    .bmi-content{
+        max-width: 100%;
+        margin-bottom: -1.25rem;
+        text-align: left;
+        align-items: flex-start;
+    }
+    
     .bmi-calculator-section {
         max-width: 90%;
         margin: 0 auto;
+        padding: 2rem 0;
         gap: 2rem;
         flex-direction: column;
-        align-items: flex-start;
+        /* align-items: flex-start; */
         padding: 0;
+    }
+
+    .bmi-chart-container {
+        padding: 0;
+        padding-top: 2rem;
     }
 
     .bmi-chart th,
@@ -177,7 +205,9 @@
     .bmi-calculator {
         max-width: 100%;
         margin: 0;
+        margin-bottom: 2rem;
         padding: 1.5rem;
+        gap: 1.5rem;
     }
 
     .form-row input,
@@ -196,6 +226,20 @@
 
     .team-card-container {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+    }
+
+    /* ----------testimonials---------- */
+    .testimonials {
+        padding: 2rem 1.25rem;
+    }
+
+    .testimonials .section-title {
+        margin-bottom: 1.5rem;
+    }
+
+    .testimonial-grid {
         grid-template-columns: repeat(1, 1fr);
         gap: 1.5rem;
     }
