@@ -149,7 +149,7 @@ header {
 }
 
 .header-content {
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -259,7 +259,7 @@ header {
 /* -------------------main------------------ */
 
 main {
-    max-width: 70%;
+    max-width: 80%;
     margin: 6.25rem auto;
     gap: 6.25rem;
 
@@ -299,7 +299,7 @@ main {
 /* --------Habits section-------- */
 .habits-section {
     text-align: center;
-    gap: 3.625rem;
+    gap: 5rem;
 }
 
 .habits-content-container {
@@ -369,11 +369,11 @@ main>.bmi-section-container {
     position: relative;
     left: 0;
     right: 0;
-    width: 100vw;
+    width: calc(100% + 25%);
 }
 
 .bmi-calculator-section {
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
     gap: 3.625rem;
 }
@@ -460,7 +460,7 @@ button:hover {
 
 /* --------out team section-------- */
 .our-team-section {
-    gap: 3.625rem;
+    gap: 3rem;
 }
 
 .our-team-content {
@@ -503,7 +503,7 @@ button:hover {
 }
 /* ----------testimonials---------- */
 .testimonials {
-    padding: 3.25rem 2rem;
+    padding: 3.25rem 2.5rem;
     background-color: #222;
     text-align: center;
     border-radius: 1.125rem;
@@ -538,7 +538,7 @@ footer {
 .main-footer,
 hr,
 .bottom-section {
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -563,9 +563,10 @@ hr,
     gap: 2.5rem;
 }
 
-.h5 {
+.h6 {
     align-items: flex-start;
     gap: 1.25rem;
+    color: rgba(255, 255, 255, 0.50);
 }
 
 hr {
