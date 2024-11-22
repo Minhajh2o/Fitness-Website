@@ -278,11 +278,14 @@ main {
 
 .habit-card-container {
     gap: 2.5rem;
+    align-items: flex-start;
 }
 
 .habit-card {
     gap: 1.875rem;
-
+    border:orange 1px solid;
+    height: 100%;
+    width: 100%;
 }
 
 .habit-card-img {
