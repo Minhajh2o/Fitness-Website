@@ -292,3 +292,33 @@ main {
 .habit-card-content {
     gap: 1rem;
 }
+
+/* Run extra mile */
+.run-extra-section {
+    padding: 1.875rem 2rem 1.875rem 3.5rem;
+    border-radius: 18px;
+    background: #222;
+}
+
+.run-extra-content {
+    gap: 1.875rem;
+    max-width: 45%;
+    padding: .5rem 0;
+    align-items: start;
+}
+
+.run-extra-img-container {
+    width: 45%;
+    height: 38.5%;
+    /* height: auto; */
+    overflow: hidden;
+    /* border-radius: 18px; */
+}
+
+.run-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    clip-path: inset(50px 100px 120px 220px round 18px);
+    object-position: center;
+}
