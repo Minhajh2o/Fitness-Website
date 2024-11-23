@@ -76,14 +76,17 @@
     }
 
     .run-extra-img-container {
-        max-width: 45%;
+        margin-top: 2rem;
+        max-width: 50%;
         overflow: hidden;
+        position: relative;
+
     }
 
     .run-img {
         width: 100%;
-        height: 100%;
         object-fit: cover;
+        clip-path: inset(0px 50px 30px 100px round 18px);
         object-position: center;
     }
 

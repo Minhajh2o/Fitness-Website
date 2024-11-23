@@ -268,33 +268,33 @@ main {
 /* Features Section Styles */
 .features {
     text-align: center;
-  }
-  
-  .features .section-title {
+}
+
+.features .section-title {
     margin-bottom: 2.75rem;
-  }
-  
-  .features-Card-container {
+}
+
+.features-Card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.875rem;
-  }
-  
-  .feature-card {
+}
+
+.feature-card {
     background-color: #222;
     padding: 1.5rem;
     border-radius: 8px;
-  }
-  
-  .feature-card .icon {
+}
+
+.feature-card .icon {
     font-size: 2.5rem;
     margin-bottom: 15px;
-  }
-  
-  .feature-title {
+}
+
+.feature-title {
     font-size: 1.5rem;
     margin: 1.5rem 0 .75rem 0;
-  }
+}
 
 /* --------Habits section-------- */
 .habits-section {
@@ -333,31 +333,37 @@ main {
     padding: 1.875rem 2rem 1.875rem 3.5rem;
     border-radius: 18px;
     background: #222;
+    height: 300px;
 }
 
 .run-extra-content {
-    gap: 1.875rem;
-    max-width: 45%;
+    gap: 1.25rem;
+    width: 45%;
     padding: .5rem 0;
     align-items: start;
 }
 
+.run-extra-content>.btn-primary {
+    margin-top: .5rem;
+}
+
 .run-extra-img-container {
-    width: 45%;
-    height: 38.5%;
+    margin-top: 1rem;
+    max-width: 45%;
     overflow: hidden;
+    position: relative;
 }
 
 .run-img {
     width: 100%;
-    height: auto;
     object-fit: cover;
-    clip-path: inset(50px 100px 120px 220px round 18px);
+    clip-path: inset(50px 100px 60px 180px round 18px);
     object-position: center;
 }
 
+
 /* -------------bmi-calculator-section------------- */
-.bmi-content{
+.bmi-content {
     gap: 1rem;
     max-width: 60%;
     text-align: center;
@@ -501,34 +507,35 @@ button:hover {
     height: 100%;
     object-fit: cover;
 }
+
 /* ----------testimonials---------- */
 .testimonials {
     padding: 3.25rem 2.5rem;
     background-color: #222;
     text-align: center;
     border-radius: 1.125rem;
-  }
-  
-  .testimonials .section-title {
+}
+
+.testimonials .section-title {
     margin-bottom: 2.5rem;
-  }
-  
-  .testimonial-grid {
+}
+
+.testimonial-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
-  }
-  
-  .testimonial-card {
+}
+
+.testimonial-card {
     background-color: #2b2b2b;
     padding: 1.5rem;
     border-radius: .625rem;
-  }
-  
-  .testimonial-text {
+}
+
+.testimonial-text {
     margin-bottom: 1rem;
-  }
- 
+}
+
 
 /* -----------footer---------- */
 footer {
@@ -578,4 +585,3 @@ hr {
     padding: 2.25rem 0;
     color: rgba(255, 255, 255, 0.50);
 }
-
