@@ -97,7 +97,7 @@
     }
 
     .bmi-calculator-section {
-        max-width: 90%;
+        /* max-width: 80%; */
         margin: 0 auto;
         padding: 3rem 0;
         gap: 2.5rem;
